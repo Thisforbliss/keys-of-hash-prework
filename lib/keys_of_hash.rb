@@ -2,9 +2,9 @@ require 'pry'
 class Hash
   def keys_of(*arguments)
  
-    self.each do |animal, country|
-     binding.pry
-      if country == arguments
+    self.collect do |animal, country|
+     #binding.pry
+      if arguments.include?(country)
         return animal.to_a
  
       end
