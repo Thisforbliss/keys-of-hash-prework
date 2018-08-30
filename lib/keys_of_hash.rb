@@ -4,7 +4,7 @@ class Hash
  
     self.each do |animal, country|
       if country == arguments
-        return animal
+        return animal.to_a
    # binding.pry
       end
     end
