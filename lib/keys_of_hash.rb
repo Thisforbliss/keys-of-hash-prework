@@ -10,7 +10,7 @@ class Hash
  
       end
     end
-binding.pry
+animals.compact
   end
 end
 
