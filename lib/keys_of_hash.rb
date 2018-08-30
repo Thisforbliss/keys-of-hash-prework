@@ -6,8 +6,7 @@ class Hash
      #binding.pry
       if arguments.include?(country)
         animal
-      else 
-      nil
+      
  
       end
     end
