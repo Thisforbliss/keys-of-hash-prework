@@ -5,7 +5,9 @@ class Hash
     self.collect do |animal, country|
      #binding.pry
       if arguments.include?(country)
-        return animal
+        animal
+      else 
+      nil
  
       end
     end
